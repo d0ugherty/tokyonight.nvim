@@ -237,8 +237,8 @@ function M.setup()
 
     --- Types
     ["@type.builtin"] = { fg = c.blue },
-    ["@field"] = { fg = c.green1 }, -- For fields.
-    ["@property"] = { fg = c.green1 },
+    ["@field"] = { fg = c.green2 }, -- For fields.
+    ["@property"] = { fg = c.green2 },
 
     --- Identifiers
     ["@variable"] = { fg = c.fg, style = options.styles.variables }, -- Any variable name that does not have another highlight.
