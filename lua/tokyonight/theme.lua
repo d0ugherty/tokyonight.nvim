@@ -211,9 +211,9 @@ function M.setup()
     -- ["@comment.documentation"] = { },
     ["@operator"] = { fg = c.blue5 }, -- For any operator: `+`, but also `->` and `*` in C.
 
-    --- Punctuation
+    --- uation
     ["@punctuation.delimiter"] = { fg = c.blue5 }, -- For delimiters ie: `.`
-    ["@punctuation.bracket"] = { fg = c.green }, -- For brackets and parens.
+    ["@punctuation.bracket"] = { fg = c.green1 }, -- For brackets and parens.
     ["@punctuation.special"] = { fg = c.blue5 }, -- For special punctutation that does not fall in the catagories before.
     ["@punctuation.special.markdown"] = { fg = c.orange, bold = true },
 
