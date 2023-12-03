@@ -106,7 +106,7 @@ function M.setup()
     -- Float         = { }, --    a floating point constant: 2.3e10
 
     Identifier = { fg = c.magenta, style = options.styles.variables }, -- (preferred) any variable name
-    Function = { fg = c.blue6, style = options.styles.functions }, -- function name (also: methods for classes)
+    Function = { fg = c.blue5, style = options.styles.functions }, -- function name (also: methods for classes)
 
     Statement = { fg = c.magenta }, -- (preferred) any statement
     -- Conditional   = { }, --  if, then, else, endif, switch, etc.
