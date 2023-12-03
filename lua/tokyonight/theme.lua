@@ -1,4 +1,4 @@
-local util = require("tokyonight.util")
+ util = require("tokyonight.util")
 local colors = require("tokyonight.colors")
 
 local M = {}
@@ -213,7 +213,7 @@ function M.setup()
 
     --- Punctuation
     ["@punctuation.delimiter"] = { fg = c.blue5 }, -- For delimiters ie: `.`
-    ["@punctuation.bracket"] = { fg = c.green2 }, -- For brackets and parens.
+    ["@punctuation.bracket"] = { fg = c.green1 }, -- For brackets and parens.
     ["@punctuation.special"] = { fg = c.blue5 }, -- For special punctutation that does not fall in the catagories before.
     ["@punctuation.special.markdown"] = { fg = c.orange, bold = true },
 
@@ -236,7 +236,7 @@ function M.setup()
     ["@label"] = { fg = c.blue }, -- For labels: `label:` in C and `:label:` in Lua.
 
     --- Types
-    ["@type.builtin"] = { fg = util.darken(c.blue1, 0.8) },
+    ["@type.builtin"] = { fg = c.blue },
     ["@field"] = { fg = c.green1 }, -- For fields.
     ["@property"] = { fg = c.green1 },
 
